@@ -1,8 +1,6 @@
-// import React from 'react';
-// import PropTypes from 'prop-types';
-
 import { useDispatch, useSelector } from 'react-redux';
-import { setFilter, getFilter } from '../../redux/slice';
+// import { setFilter, getFilter } from '../../redux/slice';
+import { setFilter, getFilter } from '../../redux/filterSlice';
 
 const Finder = () => {
   const dispatch = useDispatch();
@@ -35,20 +33,5 @@ const Finder = () => {
     </div>
   );
 };
-// Finder.propTypes = {
-//   filter: PropTypes.string.isRequired,
-//   onChange: PropTypes.func.isRequired,
-// };
-export default Finder;
 
-//   return (
-//     <label>
-//       <input
-//         type="text"
-//         name="filter"
-//         value={filter}
-//         onChange={onChange}
-//         placeholder="Find contacts by name"
-//       />
-//     </label>
-//   );
+export default Finder;
