@@ -26,7 +26,7 @@ export const Contact = ({ contact }) => {
         <IconContext.Provider value={{ className: 'global-icon' }}>
           <RiUserUnfollowFill />
         </IconContext.Provider>
-        Remove
+        Delete
       </ButtonRemoveContact>
     </ItemContact>
   );
